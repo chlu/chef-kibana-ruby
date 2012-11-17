@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /<%= node['kibana']['home'] %>/current/
+exec 2>&1
+exec chpst -u <%= node['kibana']['user'] %> <%= node['kibana']['home'] %>/.rvm/bin/ruby kibana.rb
