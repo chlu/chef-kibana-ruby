@@ -1,0 +1,9 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt', :git => 'https://github.com/opscode-cookbooks/apt.git'
+cookbook 'yum', :git => 'https://github.com/opscode-cookbooks/yum.git'
+cookbook 'java', :git => 'https://github.com/opscode-cookbooks/java.git'
+cookbook 'elasticsearch', :git => 'https://github.com/karmi/cookbook-elasticsearch.git'
+cookbook 'rvm', :git => 'https://github.com/fnichol/chef-rvm.git'
+cookbook 'logstash', :git => 'https://github.com/lusis/chef-logstash.git'
+cookbook 'kibana', :git => 'https://github.com/chlu/chef-kibana-ruby.git'

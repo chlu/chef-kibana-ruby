@@ -1,0 +1,113 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    ant (0.10.1)
+      java (>= 0)
+      jpackage (>= 0)
+    apache2 (1.3.0)
+    ark (0.0.15)
+    build-essential (1.2.0)
+    dmg (1.0.0)
+    erlang (1.1.0)
+      yum (>= 0.5.0)
+    git (1.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    jpackage (0.10.0)
+      java (>= 0)
+    logrotate (1.0.2)
+    mysql (1.3.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    openssl (1.0.0)
+    php (1.1.0)
+      build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+      xml (>= 0.0.0)
+    python (1.0.8)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    rabbitmq (1.6.4)
+      apt (>= 1.4.4)
+      erlang (>= 0.9)
+      yum (>= 0.5.0)
+    runit (0.15.0)
+    xml (1.0.4)
+
+GIT
+  remote: https://github.com/chlu/chef-kibana-ruby.git
+  ref: master
+  sha: 180a7cd246ba66ed47e32170329c7abd990bb4d7
+  specs:
+    kibana (0.1.0)
+      apt (>= 0.0.0)
+      logstash (>= 0.0.0)
+      runit (>= 0.0.0)
+      rvm (>= 0.0.0)
+      yum (>= 0.0.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rvm.git
+  ref: master
+  sha: d6cdb2ab93c421ca6234cbaf5548c914eba4084f
+  specs:
+    rvm (0.9.1)
+
+GIT
+  remote: https://github.com/karmi/cookbook-elasticsearch.git
+  ref: master
+  sha: 82ecd00f6c2a08dfc7c7db5c5e3314de0a1331b3
+  specs:
+    elasticsearch (0.0.4)
+      ark (>= 0.0.0)
+
+GIT
+  remote: https://github.com/lusis/chef-logstash.git
+  ref: master
+  sha: b5acf24eb476d329849e07dce845e6661300ca98
+  specs:
+    logstash (0.5.1)
+      ant (>= 0.0.0)
+      apache2 (>= 0.0.0)
+      build-essential (>= 0.0.0)
+      git (>= 0.0.0)
+      java (>= 0.0.0)
+      logrotate (>= 0.0.0)
+      logstash (>= 0.0.0)
+      php (>= 0.0.0)
+      python (>= 0.0.0)
+      rabbitmq (>= 0.0.0)
+      runit (>= 0.0.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/apt.git
+  ref: master
+  sha: 53fb859930c169ccb8e13f387dff2538c58a79ab
+  specs:
+    apt (1.5.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/java.git
+  ref: master
+  sha: c44f79d468e4ce044d51d204c25cb138e7d82948
+  specs:
+    java (1.6.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/yum.git
+  ref: master
+  sha: 6052fcba89e12a532afb13ccfc8ac5b41f2efa2a
+  specs:
+    yum (1.0.1)
+
+DEPENDENCIES
+  apt (>= 0)
+  elasticsearch (>= 0)
+  java (>= 0)
+  kibana (>= 0)
+  logstash (>= 0)
+  rvm (>= 0)
+  yum (>= 0)
+
